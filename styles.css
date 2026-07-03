@@ -234,7 +234,7 @@ textarea {
 }
 
 .hero {
-  padding: clamp(4rem, 7vw, 6.75rem) 0 clamp(4rem, 6vw, 6rem);
+  padding: clamp(4rem, 7vw, 6.75rem) 0 clamp(14rem, 16vw, 16rem);
   background:
     linear-gradient(90deg, rgba(255, 250, 242, 0.62), rgba(239, 231, 219, 0.42)),
     radial-gradient(circle at 72% 36%, rgba(81, 98, 74, 0.1), transparent 28%);
@@ -407,7 +407,7 @@ textarea {
 .hero-detail-card {
   position: absolute;
   right: clamp(-1rem, -1.2vw, -0.25rem);
-  top: 79%;
+  top: 94%;
   transform: none;
   width: min(330px, calc(100% - 2.2rem));
   padding: 1.35rem 1.45rem 1.2rem;
@@ -832,6 +832,10 @@ body.is-menu-open {
 }
 
 @media (max-width: 900px) {
+  .hero {
+    padding-bottom: clamp(13rem, 26vw, 15rem);
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
   }
@@ -898,6 +902,7 @@ body.is-menu-open {
 
   .hero {
     padding-top: 3.25rem;
+    padding-bottom: 2.75rem;
   }
 
   .hero-grid,
