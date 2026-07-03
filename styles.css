@@ -406,8 +406,8 @@ textarea {
 
 .hero-detail-card {
   position: absolute;
-  right: clamp(-1rem, -1.2vw, -0.25rem);
-  top: 94%;
+  right: 10%;
+  top: 87%;
   transform: none;
   width: min(330px, calc(100% - 2.2rem));
   padding: 1.35rem 1.45rem 1.2rem;
